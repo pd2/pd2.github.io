@@ -127,7 +127,7 @@ p {
 
 blockquote {
     margin-top: var(--spacing);
-    font-size: 2rem;
+    font-size: 1.1rem;
     font-style: italic;
     text-align: center;
 }

@@ -116,7 +116,7 @@ section {
 
 .about-img {
     max-width: 350px;
-    filter: grayscale(20%);
+    filter: grayscale(0%);
 }
 
 .about-img:hover {

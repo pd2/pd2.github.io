@@ -334,5 +334,14 @@
             </ul>
             <p>&copy; 2023 Pradeep D. Design by Jo Frank</p>
         </footer>
+<button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Back to top">
+  ↑
+</button>
+<script>
+  const btn = document.getElementById('back-to-top');
+  window.addEventListener('scroll', () => {
+    btn.classList.toggle('visible', window.scrollY > 300);
+  });
+</script>
 </body>
 </html>
